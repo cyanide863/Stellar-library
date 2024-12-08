@@ -1,6 +1,5 @@
 package stellar.type.bullet;
 import stellar.type.DamageType;
-import stellar.type.bullet.vanilla.StellarLaserBulletType;
 import arc.graphics.Color;
 import arc.graphics.g2d.Draw;
 import arc.graphics.g2d.Fill;
@@ -12,7 +11,7 @@ import mindustry.gen.Bullet;
 import mindustry.graphics.Drawf;
 import stellar.util.feature.PositionLightning;
 
-public class FancyLaserBulletType extends StellarLaserBulletType {
+public class FancyLaserBulletType extends LaserBulletType {
     public boolean drawLine = false;
     public int boltNum = 2;
     public float liWidth = PositionLightning.WIDTH - 1f;
